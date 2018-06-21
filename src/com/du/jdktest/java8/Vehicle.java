@@ -1,4 +1,4 @@
-package com.du.test1.java8;
+package com.du.jdktest.java8;
 
 /**
  * 接口中也可以有默认方法，静态方法

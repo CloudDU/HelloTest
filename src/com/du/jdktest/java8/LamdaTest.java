@@ -1,4 +1,4 @@
-package com.du.test1.java8;
+package com.du.jdktest.java8;
 
 public class LamdaTest {
     public static void main(String[] args) {

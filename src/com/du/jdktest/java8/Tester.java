@@ -1,4 +1,4 @@
-package com.du.test1.java8;
+package com.du.jdktest.java8;
 
 import com.du.util.String.StrUtil;
 
@@ -7,7 +7,6 @@ import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 import java.util.*;
 import java.util.function.Predicate;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class Tester {

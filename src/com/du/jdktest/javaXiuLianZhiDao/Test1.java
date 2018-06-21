@@ -1,6 +1,5 @@
-package com.du.test1.javaXiuLianZhiDao;
+package com.du.jdktest.javaXiuLianZhiDao;
 
-import javax.security.auth.login.Configuration;
 import java.io.IOException;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
