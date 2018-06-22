@@ -76,7 +76,7 @@ public class StrUtil {
      * @return
      */
     public static Boolean isNoNULL(String s){
-        return s == null ? false : s.equalsIgnoreCase("null") ? false : true;
+        return s != null && !s.equalsIgnoreCase("null");
     }
 
 
