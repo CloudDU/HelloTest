@@ -27,7 +27,7 @@ public class LamdaTest {
         greetingService2.sayMessage("world");
     }
 
-    interface gitMathoperation{
+    interface Mathoperation{
         int operation(int a, int b);
     }
 
