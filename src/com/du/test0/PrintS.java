@@ -1,5 +1,10 @@
 package com.du.test0;
 
+/**
+ * 这个例子中，打印测顺序是什么？
+ *
+ * 1234【4可在 1 2 3 任何位置出现】BAC
+ */
 public class PrintS {
   
     public static void main(String arg[]) {
