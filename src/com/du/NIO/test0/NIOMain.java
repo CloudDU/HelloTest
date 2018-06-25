@@ -25,9 +25,10 @@ public class NIOMain {
         } catch (IOException e) {
             e.printStackTrace();
         }*/
-        String txt = "\r\n哗啦啦啦\t哗啦啦\t哈哈";
+        String txt = "\r\n-1-2-1-2-1-2-1-2\t哈莎莎\t的快速和许安安";
         try {
-            NIOUtil.writeToFile(txt, filePath);
+            //NIOUtil.writeToFile(txt, filePath);
+            NIOUtil.appendWriteToFile(txt, filePath);
         } catch (IOException e) {
             e.printStackTrace();
         }

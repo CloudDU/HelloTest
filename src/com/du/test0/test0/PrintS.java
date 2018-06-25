@@ -1,4 +1,4 @@
-package com.du.test0;
+package com.du.test0.test0;
 
 /**
  * 这个例子中，打印测顺序是什么？
