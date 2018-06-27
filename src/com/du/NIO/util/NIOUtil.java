@@ -48,6 +48,26 @@ public class NIOUtil {
 
 
     /**
+     * 追加内容到文件中
+     * @param txt
+     * @param filePath
+     */
+    public static void appendWriteToFile(String txt, String filePath) throws IOException {
+        txt = txt == null ? "null" :txt;
+        if(txt.isEmpty()){
+            return;
+        }
+        FileOutputStream fout = new FileOutputStream(filePath, true);
+        FileChannel fc = fout.getChannel();
+
+        ByteBuffer buffer = ByteBuffer.allocate(2048);
+        buffer.put(txt.getBytes());
+
+        buffer.flip();
+        fc.write(buffer);
+    }
+
+    /**
      * 打印内容
      * @param s
      */

@@ -1,4 +1,4 @@
-package com.du.test0;
+package com.du.test0.test0;
 
 import com.du.util.String.StrUtil;
 
